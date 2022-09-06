@@ -182,7 +182,7 @@ export default function PropertyCard(props) {
       <CardContent>
         <Typography
           className='commentaries'
-          variant='body2'
+          variant='h5'
           color='text.secondary'
         >
           {comentarios}
