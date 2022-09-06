@@ -25,24 +25,24 @@ import './SideBar.css';
 const drawerWidth = 200;
 const drawerBleeding = 56;
 
-const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
-  ({ theme, open }) => ({
-    flexGrow: 1,
-    padding: theme.spacing(3),
-    transition: theme.transitions.create('margin', {
-      easing: theme.transitions.easing.sharp,
-      duration: theme.transitions.duration.leavingScreen,
-    }),
-    marginRight: -drawerWidth,
-    ...(open && {
-      transition: theme.transitions.create('margin', {
-        easing: theme.transitions.easing.easeOut,
-        duration: theme.transitions.duration.enteringScreen,
-      }),
-      marginRight: 0,
-    }),
-  })
-);
+// const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
+//   ({ theme, open }) => ({
+//     flexGrow: 1,
+//     padding: theme.spacing(3),
+//     transition: theme.transitions.create('margin', {
+//       easing: theme.transitions.easing.sharp,
+//       duration: theme.transitions.duration.leavingScreen,
+//     }),
+//     marginRight: -drawerWidth,
+//     ...(open && {
+//       transition: theme.transitions.create('margin', {
+//         easing: theme.transitions.easing.easeOut,
+//         duration: theme.transitions.duration.enteringScreen,
+//       }),
+//       marginRight: 0,
+//     }),
+//   })
+// );
 
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
@@ -94,7 +94,11 @@ function SideBar(props) {
               color: 'white',
             }}
           >
-            <Link className='sideBar-button' to='/MGInmobiliaria' underline='none'>
+            <Link
+              className='sideBar-button'
+              to='/MGInmobiliaria'
+              underline='none'
+            >
               <h4 className='title'>MG Inmobiliaria</h4>
             </Link>
             <Box
@@ -108,7 +112,7 @@ function SideBar(props) {
                 aria-label='open drawer'
                 edge='end'
                 onClick={toggleDrawer(true)}
-                sx={{ ...(open && { display: 'none' }) }}
+                sx={{ ...(open && { display: 'none' }), zIndex: 6 }}
               >
                 <MenuIcon />
               </IconButton>
@@ -118,6 +122,7 @@ function SideBar(props) {
       </Box>
       <SwipeableDrawer
         sx={{
+          zIndex: 5,
           width: drawerWidth,
           flexShrink: 0,
           '& .MuiDrawer-paper': {
@@ -125,7 +130,6 @@ function SideBar(props) {
             bgcolor: '#4d18c7',
           },
         }}
-        variant='persistant'
         container={container}
         anchor='right'
         open={open}
@@ -155,7 +159,11 @@ function SideBar(props) {
         <Divider />
         <List>
           <ListItem className='sideBar-item' key={'home'} disablePadding>
-            <Link className='sideBar-item-button' to='/MGInmobiliaria' underline='none'>
+            <Link
+              className='sideBar-item-button'
+              to='/MGInmobiliaria'
+              underline='none'
+            >
               <ListItemButton>
                 <ListItemIcon>
                   <HomeRoundedIcon className='sideBar-item-icon' />
@@ -165,7 +173,11 @@ function SideBar(props) {
             </Link>
           </ListItem>
           <ListItem className='sideBar-item' key={'inmuebles'} disablePadding>
-            <Link className='sideBar-item-button' to='/inmuebles' underline='none'>
+            <Link
+              className='sideBar-item-button'
+              to='/inmuebles'
+              underline='none'
+            >
               <ListItemButton>
                 <ListItemIcon>
                   <ApartmentRoundedIcon className='sideBar-item-icon' />
@@ -175,7 +187,11 @@ function SideBar(props) {
             </Link>
           </ListItem>
           <ListItem className='sideBar-item' key={'nosotros'} disablePadding>
-            <Link className='sideBar-item-button' to='/nosotros' underline='none'>
+            <Link
+              className='sideBar-item-button'
+              to='/nosotros'
+              underline='none'
+            >
               <ListItemButton>
                 <ListItemIcon>
                   <InfoRoundedIcon className='sideBar-item-icon' />

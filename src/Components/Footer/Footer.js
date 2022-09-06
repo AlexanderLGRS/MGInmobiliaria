@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 export default function Footer() {

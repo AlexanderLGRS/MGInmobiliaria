@@ -92,7 +92,7 @@ export default function PropertyCard(props) {
       default:
         break;
     }
-  });
+  }, [tipo, id, venta, arriendo, ubicacion]);
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
@@ -144,7 +144,7 @@ export default function PropertyCard(props) {
               key={index}
               className={index === 0 ? 'carousel-item active' : 'carousel-item'}
             >
-              <img src={foto} className='d-block w-100' alt={foto} />
+              <img src={foto} className='d-block w-100' alt={path} />
             </div>
           ))}
         </div>
