@@ -91,7 +91,7 @@ function SideBar(props) {
                 aria-label='open drawer'
                 edge='end'
                 onClick={toggleDrawer(true)}
-                sx={{ ...(open && { display: 'none' }), zIndex: 6 }}
+                sx={{ ...(open && { display: 'none' }), zIndex: 1200 }}
               >
                 <MenuIcon />
               </IconButton>
