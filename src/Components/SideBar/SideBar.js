@@ -23,7 +23,7 @@ import { Link } from 'react-router-dom';
 import './SideBar.css';
 
 const drawerWidth = 200;
-const drawerBleeding = 56;
+const drawerBleeding = 5;
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
 })(({ theme, open }) => ({
@@ -82,10 +82,8 @@ function SideBar(props) {
             </Link>
             <Box
               sx={{
-                position:'relative',
                 display: 'flex',
                 justifyContent: 'space-evenly',
-                zIndex: 1200,
               }}
             >
               <IconButton
