@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/MGInmobiliaria/static/css/main.7e9d77f7.css",
+    "main.js": "/MGInmobiliaria/static/js/main.591623bc.js",
+    "static/js/787.35d69ba6.chunk.js": "/MGInmobiliaria/static/js/787.35d69ba6.chunk.js",
+    "static/media/city_medium.jpg": "/MGInmobiliaria/static/media/city_medium.ebd0602a9df3a95b4daf.jpg",
+    "static/media/city_two_medium.jpg": "/MGInmobiliaria/static/media/city_two_medium.7e580784eaa8605d423f.jpg",
+    "static/media/14.jpeg": "/MGInmobiliaria/static/media/14.41ac22a1a2459fa4daab.jpeg",
+    "static/media/7.jpeg": "/MGInmobiliaria/static/media/7.9fbe0392a452c0e0f3b3.jpeg",
+    "static/media/8.jpeg": "/MGInmobiliaria/static/media/8.114fc4d09b4ddaa37624.jpeg",
+    "static/media/6.jpeg": "/MGInmobiliaria/static/media/6.f10013011d32375eb253.jpeg",
+    "static/media/1.jpeg": "/MGInmobiliaria/static/media/1.c8ec925b23643b48d447.jpeg",
+    "static/media/3.jpeg": "/MGInmobiliaria/static/media/3.ec1aa6e633f91ce6e779.jpeg",
+    "static/media/2.jpeg": "/MGInmobiliaria/static/media/2.8b5d050dce868a346282.jpeg",
+    "static/media/10.jpeg": "/MGInmobiliaria/static/media/10.9b68cf3780bbf478710b.jpeg",
+    "static/media/13.jpeg": "/MGInmobiliaria/static/media/13.27211701ab4737a4e30e.jpeg",
+    "static/media/4.jpeg": "/MGInmobiliaria/static/media/4.6aac36b787f5072db144.jpeg",
+    "static/media/9.jpeg": "/MGInmobiliaria/static/media/9.fc4e2e69589b4be1cda8.jpeg",
+    "static/media/15.jpeg": "/MGInmobiliaria/static/media/15.b6658f4dae462785f8ad.jpeg",
+    "static/media/12.jpeg": "/MGInmobiliaria/static/media/12.502820f62d6685aafe85.jpeg",
+    "static/media/11.jpeg": "/MGInmobiliaria/static/media/11.e728f418e7decd6ae0b0.jpeg",
+    "static/media/5.jpeg": "/MGInmobiliaria/static/media/5.b321c07f8b664acc3c60.jpeg",
+    "static/media/18.jpeg": "/MGInmobiliaria/static/media/18.027ead224aa82aaa9b5f.jpeg",
+    "static/media/16.jpeg": "/MGInmobiliaria/static/media/16.814479880c5cea748178.jpeg",
+    "static/media/17.jpeg": "/MGInmobiliaria/static/media/17.d1371a8394ebdac11f11.jpeg",
+    "static/media/19.jpeg": "/MGInmobiliaria/static/media/19.630ca91ac85b54538774.jpeg",
+    "index.html": "/MGInmobiliaria/index.html",
+    "main.7e9d77f7.css.map": "/MGInmobiliaria/static/css/main.7e9d77f7.css.map",
+    "main.591623bc.js.map": "/MGInmobiliaria/static/js/main.591623bc.js.map",
+    "787.35d69ba6.chunk.js.map": "/MGInmobiliaria/static/js/787.35d69ba6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e9d77f7.css",
+    "static/js/main.591623bc.js"
+  ]
+}
