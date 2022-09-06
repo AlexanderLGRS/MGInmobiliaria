@@ -100,6 +100,7 @@ export default function PropertyCard(props) {
   return (
     <Card className='propertyCard' sx={{ maxWidth: 345 }}>
       <CardHeader
+        
         avatar={
           <Avatar
             sx={{ bgcolor: '#4d18c7', fontSize: '15px' }}
@@ -109,7 +110,13 @@ export default function PropertyCard(props) {
           </Avatar>
         }
         title={`${tipo} - ${ubicacion} ${area}m2`}
+        titleTypographyProps={{
+          fontSize: '12px',
+        }}
         subheader={fecha}
+        subheaderTypographyProps={{
+          fontSize: '10px',
+        }}
         action={
           <IconButton aria-label='share'>
             <a

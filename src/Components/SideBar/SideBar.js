@@ -63,7 +63,6 @@ function SideBar(props) {
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <Box className='header'>
-        {/* <SideBar/> */}
         <AppBar color='transparent' position='static'>
           <Toolbar
             sx={{
@@ -75,7 +74,7 @@ function SideBar(props) {
           >
             <Link
               className='sideBar-button'
-              to='/MGInmobiliaria'
+              to='/'
               underline='none'
             >
               <h4 className='title'>MG Inmobiliaria</h4>
@@ -139,7 +138,7 @@ function SideBar(props) {
           <ListItem className='sideBar-item' key={'home'} disablePadding>
             <Link
               className='sideBar-item-button'
-              to='/MGInmobiliaria'
+              to='/'
               underline='none'
             >
               <ListItemButton>
