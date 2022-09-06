@@ -24,26 +24,6 @@ import './SideBar.css';
 
 const drawerWidth = 200;
 const drawerBleeding = 56;
-
-// const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
-//   ({ theme, open }) => ({
-//     flexGrow: 1,
-//     padding: theme.spacing(3),
-//     transition: theme.transitions.create('margin', {
-//       easing: theme.transitions.easing.sharp,
-//       duration: theme.transitions.duration.leavingScreen,
-//     }),
-//     marginRight: -drawerWidth,
-//     ...(open && {
-//       transition: theme.transitions.create('margin', {
-//         easing: theme.transitions.easing.easeOut,
-//         duration: theme.transitions.duration.enteringScreen,
-//       }),
-//       marginRight: 0,
-//     }),
-//   })
-// );
-
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
 })(({ theme, open }) => ({
@@ -65,7 +45,6 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-start',
 }));
@@ -112,7 +91,7 @@ function SideBar(props) {
                 aria-label='open drawer'
                 edge='end'
                 onClick={toggleDrawer(true)}
-                sx={{ ...(open && { display: 'none' }), zIndex: 1200 }}
+                sx={{ ...(open && { display: 'none' }), zIndex: 6 }}
               >
                 <MenuIcon />
               </IconButton>
@@ -121,7 +100,6 @@ function SideBar(props) {
         </AppBar>
       </Box>
       <SwipeableDrawer
-      id='swipeableDrawer'
         sx={{
           width: drawerWidth,
           flexShrink: 0,
