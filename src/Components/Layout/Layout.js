@@ -1,9 +1,12 @@
 import SideBar from '../SideBar/SideBar';
 
 export default function Layout(props) {
+  const onSelectFilterHandler =(filter)=>{
+    props.onSelectFilter(filter);
+  }
   return (
     <>
-      <SideBar />
+      <SideBar onSelectFilter={onSelectFilterHandler} />
       {props.children}
     </>
   );

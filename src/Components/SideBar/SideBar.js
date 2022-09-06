@@ -19,6 +19,9 @@ import ListItemText from '@mui/material/ListItemText';
 import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ApartmentRoundedIcon from '@mui/icons-material/ApartmentRounded';
+import Collapse from '@mui/material/Collapse';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ArrowRightRoundedIcon from '@mui/icons-material/ArrowRightRounded';
 import { Link } from 'react-router-dom';
 import './SideBar.css';
 
@@ -49,16 +52,39 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-start',
 }));
 
+const ExpandMore = styled((props) => {
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+  marginLeft: 'auto',
+  transition: theme.transitions.create('transform', {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
+
 function SideBar(props) {
   const theme = useTheme();
   const { window } = props;
   const [open, setOpen] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(false);
+  const [filter, setFilter] = React.useState('');
 
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
   const container =
     window !== undefined ? () => window().document.body : undefined;
+
+  const handleExpandClick = () => {
+    setExpanded(!expanded);
+  };
+  const filterPropertiesListHandler = (event) => {
+    setFilter(event.target.innerText);
+  };
+  React.useEffect(() => {
+    props.onSelectFilter(filter);
+  }, [filter]);
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -72,11 +98,7 @@ function SideBar(props) {
               color: 'white',
             }}
           >
-            <Link
-              className='sideBar-button'
-              to='/'
-              underline='none'
-            >
+            <Link className='sideBar-button' to='/' underline='none'>
               <h4 className='title'>MG Inmobiliaria</h4>
             </Link>
             <Box
@@ -99,6 +121,7 @@ function SideBar(props) {
         </AppBar>
       </Box>
       <SwipeableDrawer
+        className='sideBar'
         sx={{
           width: drawerWidth,
           flexShrink: 0,
@@ -119,15 +142,15 @@ function SideBar(props) {
         }}
       >
         <DrawerHeader>
-          <IconButton onClick={toggleDrawer(false)}>
+          <IconButton sx={{ color: '#fff' }} onClick={toggleDrawer(false)}>
             {theme.direction === 'rtl' ? (
               <div className='sideBar-item'>
-                <ChevronLeftIcon />
+                <ChevronLeftIcon fontSize='large' />
                 <span>Menu</span>
               </div>
             ) : (
               <div className='sideBar-item'>
-                <ChevronRightIcon />
+                <ChevronRightIcon fontSize='large' />
                 <span>Menu</span>
               </div>
             )}
@@ -136,11 +159,7 @@ function SideBar(props) {
         <Divider />
         <List>
           <ListItem className='sideBar-item' key={'home'} disablePadding>
-            <Link
-              className='sideBar-item-button'
-              to='/'
-              underline='none'
-            >
+            <Link className='sideBar-item-button' to='/' underline='none'>
               <ListItemButton>
                 <ListItemIcon>
                   <HomeRoundedIcon className='sideBar-item-icon' />
@@ -160,9 +179,58 @@ function SideBar(props) {
                   <ApartmentRoundedIcon className='sideBar-item-icon' />
                 </ListItemIcon>
                 <ListItemText primary={'Inmuebles'} />
+                <ExpandMore
+                  sx={{ color: '#fff' }}
+                  expand={expanded}
+                  onClick={handleExpandClick}
+                  aria-expanded={expanded}
+                  aria-label='show more'
+                >
+                  <ExpandMoreIcon />
+                </ExpandMore>
               </ListItemButton>
             </Link>
           </ListItem>
+          <Collapse
+            sx={{ color: '#fff', paddingLeft: '3rem' }}
+            in={expanded}
+            timeout='auto'
+            unmountOnExit
+          >
+            <ListItem
+              onClick={filterPropertiesListHandler}
+              className='sideBar-item'
+              disablePadding
+            >
+              <ArrowRightRoundedIcon fontSize='large' />
+              <ListItemText primary={'Apartamentos'} />
+            </ListItem>
+            <ListItem
+              onClick={filterPropertiesListHandler}
+              className='sideBar-item'
+              disablePadding
+            >
+              <ArrowRightRoundedIcon fontSize='large' />
+              <ListItemText primary={'Casas'} />
+            </ListItem>
+            <ListItem
+              disabled
+              // onClick={filterPropertiesListHandler}
+              className='sideBar-item'
+              disablePadding
+            >
+              <ArrowRightRoundedIcon fontSize='large' />
+              <ListItemText primary={'Locales'} />
+            </ListItem>
+            <ListItem
+              onClick={filterPropertiesListHandler}
+              className='sideBar-item'
+              disablePadding
+            >
+              <ArrowRightRoundedIcon fontSize='large' />
+              <ListItemText primary={'Todos'} />
+            </ListItem>
+          </Collapse>
           <ListItem className='sideBar-item' key={'nosotros'} disablePadding>
             <Link
               className='sideBar-item-button'
