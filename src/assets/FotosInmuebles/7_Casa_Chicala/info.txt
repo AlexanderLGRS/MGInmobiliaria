@@ -1,0 +1,22 @@
+{
+"key": 7,
+"tipo": "Casa",
+"ubicacion": "Chicalá",
+"fecha": "23-feb-22",
+"area": "72",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Casa amplia, de conjunto, cuenta con antejarín",
+"componentes": [
+"3 Pisos",
+"4 Alcoba(s)",
+"2 Baño(s)",
+"1 Sala-Comedor",
+"1 Estudio",
+"1 Zona de ropas",
+"1 Cocina(s)",
+"1 Antejardín"
+]
+}
+// Admon $65.000
+// Precio $ 180.000.000

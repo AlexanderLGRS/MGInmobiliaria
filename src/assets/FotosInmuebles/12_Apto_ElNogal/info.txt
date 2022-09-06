@@ -1,0 +1,21 @@
+{
+"key": 12,
+"tipo": "Apartamento",
+"ubicacion": "El Nogal",
+"fecha": "31-ago-22",
+"area": "149",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "La casa se encuentra ubicada muy cerca a la portería y el parqueqdero, con vista al jardín principal del conjunto residencial",
+"componentes": [
+"3 Alcoba(s)",
+"3 Baño(s)",
+"1 Sala",
+"1 Comedor",
+"1 Estudio",
+"1 Zona de ropas",
+"1 Cocina(s)"
+]
+}
+// Admon $
+// Precio $ 1.000.000.000

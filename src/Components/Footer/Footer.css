@@ -1,0 +1,30 @@
+.footer {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--third-color);
+    font-size: 1.2rem;
+}
+
+.footer a {
+    color: var(--third-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+}
+
+a {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+.css-1fpt91a {
+    bottom: 0;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+} */

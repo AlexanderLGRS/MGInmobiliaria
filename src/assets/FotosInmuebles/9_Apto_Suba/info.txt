@@ -1,0 +1,21 @@
+{
+"key": 9,
+"tipo": "Apartamento",
+"ubicacion": "La Campiña",
+"fecha": "18-abr-22",
+"area": "57",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Hermoso apartamento con acabados, con parqueadero cubierto",
+"componentes": [
+"2 Alcoba(s)",
+"1 Baño(s)",
+"1 Sala-Comedor",
+"1 Estudio",
+"1 Zona de ropas",
+"1 Cocina(s)",
+"1 Garaje"
+]
+}
+// Admon $
+// Precio $ 230.000.000

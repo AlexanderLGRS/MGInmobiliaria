@@ -1,0 +1,21 @@
+{
+"key": 6,
+"tipo": "Apartamento",
+"ubicacion": "Castilla",
+"fecha": "10-feb-22",
+"area": "72",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Hermoso apartamento con acabados, ubicado en el septimo piso, con vista al exterior del conjunto",
+"componentes": [
+"3 Alcoba(s)",
+"2 Baño(s)",
+"1 Sala-Comedor",
+"1 Estudio",
+"1 Zona de ropas",
+"1 Cocina(s)",
+"1 Garaje"
+]
+}
+// Admon $165.000
+// Precio $ 260.000.000

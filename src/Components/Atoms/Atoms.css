@@ -1,0 +1,18 @@
+.title {
+    color: white;
+    font-family: var(--principal-font);
+
+}
+
+.subtitle {
+    color: white;
+    font-family: var(--principal-font);
+
+}
+
+.paragraph {
+    color: white;
+    font-family: var(--secondary-font);
+    width: 50%;
+    font-size: 1.5rem;
+}

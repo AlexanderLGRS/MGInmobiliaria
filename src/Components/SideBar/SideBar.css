@@ -1,0 +1,24 @@
+.header{
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+}
+.sideBar-item-button,
+.sideBar-item-button:hover {
+    color: white;
+}
+
+.sideBar-item span {
+    font-family: var(--secondary-font);
+    color: white;
+    font-weight: bold;
+}
+
+.sideBar-item-icon {
+    color: white;
+
+}
+
+.swipeableDrawer {
+    background-color: aqua;
+}

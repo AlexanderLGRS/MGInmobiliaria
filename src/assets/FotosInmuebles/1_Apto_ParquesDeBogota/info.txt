@@ -1,0 +1,19 @@
+{
+"key": 1,
+"tipo": "Apartamento",
+"ubicacion": "Parques de Boogotá",
+"fecha": "15-ene-22",
+"area": "65",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Este apartamento está ubicado en un segundo piso, cuenta con cortinas automáticas, el apto está totalmente terminado con acabados de primera",
+"componentes": [
+"3 Alcoba(s)",
+"2 Baño(s)",
+"1 Sala-Comedor",
+"1 Zona de ropas",
+"1 Cocina(s)"
+]
+}
+// Admon $45.000
+// Precio $ 170.000.000

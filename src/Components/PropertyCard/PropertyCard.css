@@ -1,0 +1,44 @@
+.propertyCard {
+    min-width: 30%;
+    min-height: 400px;
+    max-height: 100vh;
+    margin: 0 20px 15px 0;
+}
+
+.propertyCard-details {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.chips-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.chip {
+    margin-right: 10px;
+}
+
+.whatsApp-Icon,
+.whatsApp-Icon:hover {
+    color: black;
+}
+
+.propertyCard .carousel {
+    display: flex;
+    align-items: center;
+}
+
+.propertyCard .carousel .carousel-inner {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #212529bf;
+}
+
+.propertyCard .carousel .carousel-inner img {
+    object-fit: cover;
+}

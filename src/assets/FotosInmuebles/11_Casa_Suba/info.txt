@@ -1,0 +1,21 @@
+{
+"key": 11,
+"tipo": "Casa",
+"ubicacion": "Suba",
+"fecha": "31-ago-22",
+"area": "69",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "La casa se encuentra ubicada muy cerca a la portería y el parqueqdero, con vista al jardín principal del conjunto residencial",
+"componentes": [
+"3 Pisos",
+"4 Alcoba(s)",
+"2 Baño(s)",
+"2 Sala-Comedor",
+"2 Cocina(s)",
+"1 Zona de ropas",
+"1 Garaje"
+]
+}
+// Admon $55.000
+// Precio $180.000.000 millones

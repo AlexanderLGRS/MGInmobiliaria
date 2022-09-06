@@ -1,0 +1,282 @@
+{
+    "propertiesDescarted": [
+        {
+            "key": "1",
+            "path": "1",
+            "tipo": "Apartamento",
+            "ubicacion": "Parques de Boogotá",
+            "fecha": "15-ene-22",
+            "area": "65",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Este apartamento está ubicado en un segundo piso, cuenta con cortinas automáticas, el apto está totalmente terminado con acabados de primera.",
+            "componentes": [
+                "3 Alcoba(s)",
+                "2 Baño(s)",
+                "1 Sala-Comedor",
+                "1 Zona de ropas",
+                "1 Cocina(s)"
+            ],
+            "fotos": [
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/1.jpeg"
+            ]
+        }
+    ],
+    "properties": [
+        {
+            "key": "5",
+            "path": "5_Casa_LaLibertad",
+            "tipo": "Casa",
+            "ubicacion": "Bosa la libertad",
+            "fecha": "29-ene-22",
+            "area": "195",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Casa amplia esquinera, ubicada a una cuadra del sector comercial.",
+            "componentes": [
+                "2 Pisos",
+                "3 Aptos independientes",
+                "1 Garaje",
+                "1 Terraza"
+            ],
+            "fotos": [
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/2.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/1.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/3.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/4.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/5.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/6.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/7.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/8.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/9.jpeg",
+                "../../assets/FotosInmuebles/5_Casa_LaLibertad/10.jpeg"
+            ]
+        },
+        {
+            "key": "6",
+            "path": "6_Apto_Castilla",
+            "tipo": "Apartamento",
+            "ubicacion": "Castilla",
+            "fecha": "10-feb-22",
+            "area": "72",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Hermoso apartamento con acabados, ubicado en el septimo piso, con vista al exterior del conjunto.",
+            "componentes": [
+                "3 Alcoba(s)",
+                "2 Baño(s)",
+                "1 Sala-Comedor",
+                "1 Estudio",
+                "1 Zona de ropas",
+                "1 Cocina(s)",
+                "1 Garaje"
+            ],
+            "fotos": [
+                "1",
+                "2"
+            ]
+        },
+        {
+            "key": "7",
+            "path": "7_Casa_Chicala",
+            "tipo": "Casa",
+            "ubicacion": "Chicalá",
+            "fecha": "23-feb-22",
+            "area": "72",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Casa amplia, de conjunto, cuenta con antejarín.",
+            "componentes": [
+                "3 Pisos",
+                "4 Alcoba(s)",
+                "2 Baño(s)",
+                "1 Sala-Comedor",
+                "1 Estudio",
+                "1 Zona de ropas",
+                "1 Cocina(s)",
+                "1 Antejardín"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+            ]
+        },
+        {
+            "key": "8",
+            "path": "8_Casa_VillaAndrea",
+            "tipo": "Casa",
+            "ubicacion": "Villa Andrea",
+            "fecha": "16-mar-22",
+            "area": "96",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Casa amplia, de barrio, cuenta con parqueadero.",
+            "componentes": [
+                "4 Pisos",
+                "4 Alcoba(s)",
+                "2 Baño(s)",
+                "2 Sala-Comedor",
+                "1 Zona de ropas",
+                "1 Cocina(s)",
+                "1 Garaje"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15"
+            ]
+        },
+        {
+            "key": "9",
+            "path": "9_Apto_Suba",
+            "tipo": "Apartamento",
+            "ubicacion": "La Campiña",
+            "fecha": "18-abr-22",
+            "area": "57",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Hermoso apartamento con acabados, con parqueadero cubierto.",
+            "componentes": [
+                "2 Alcoba(s)",
+                "1 Baño(s)",
+                "1 Sala-Comedor",
+                "1 Estudio",
+                "1 Zona de ropas",
+                "1 Cocina(s)",
+                "1 Garaje"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ]
+        },
+        {
+            "key": "10",
+            "path": "10_Apto_Chico",
+            "tipo": "Apartamento",
+            "ubicacion": "Chicó",
+            "fecha": "18-May-22",
+            "area": "205",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Apartamento amplio, cuenta con cuarto y baño de servicio.",
+            "componentes": [
+                "3 Alcoba(s)",
+                "3 Baño(s)",
+                "1 Sala",
+                "1 Comedor",
+                "1 Estudio",
+                "1 Zona de ropas",
+                "1 Cocina(s)",
+                "1 Terraza cubierta",
+                "1 Terraza despejada"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+            ]
+        },
+        {
+            "key": "11",
+            "path": "11_Casa_Suba",
+            "tipo": "Casa",
+            "ubicacion": "Suba",
+            "fecha": "31-ago-22",
+            "area": "69",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "La casa se encuentra ubicada muy cerca a la portería y el parqueqdero, con vista al jardín principal del conjunto residencial.",
+            "componentes": [
+                "3 Pisos",
+                "4 Alcoba(s)",
+                "2 Baño(s)",
+                "2 Sala-Comedor",
+                "2 Cocina(s)",
+                "1 Zona de ropas",
+                "1 Garaje"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "key": "12",
+            "path": "12_Apto_ElNogal",
+            "tipo": "Apartamento",
+            "ubicacion": "El Nogal",
+            "fecha": "31-ago-22",
+            "area": "149",
+            "venta": "true",
+            "arriendo": "false",
+            "comentarios": "Hermoso apartamento en un octavo piso, cuenta con una excelente ubicacion.",
+            "componentes": [
+                "3 Alcoba(s)",
+                "3 Baño(s)",
+                "1 Sala",
+                "1 Comedor",
+                "1 Estudio",
+                "1 Zona de ropas",
+                "1 Cocina(s)"
+            ],
+            "fotos": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+            ]
+        }
+    ]
+}

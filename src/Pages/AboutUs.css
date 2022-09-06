@@ -1,0 +1,48 @@
+.info-container {
+    backdrop-filter: brightness(80%);
+    padding: 0 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-us-info {
+    text-align: end;
+    align-self: flex-end;
+}
+
+.title {
+    font-family: var(--principal-font);
+}
+
+.subtitle {
+    font-family: var(--secondary-font);
+}
+
+#aboutUs {
+    background-image: url("../assets/icons/city_medium.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+}
+
+#wappIcon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../assets/icons/whatsapp_icon.png");
+    margin-right: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

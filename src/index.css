@@ -1,0 +1,36 @@
+:root {
+  --principal-color: #4d18c7;
+  --secondary-color: #212529;
+  --third-color: #fff;
+  --principal-font: "Anton", sans-serif;
+  --secondary-font: "Prompt", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+#body {
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:hover {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}

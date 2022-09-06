@@ -1,0 +1,23 @@
+{
+"key": 10,
+"tipo": "Apartamento",
+"ubicacion": "Chicó",
+"fecha": "18-May-22",
+"area": "205",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Apartamento amplio, cuenta con cuarto y baño de servicio.",
+"componentes": [
+"3 Alcoba(s)",
+"3 Baño(s)",
+"1 Sala",
+"1 Comedor",
+"1 Estudio",
+"1 Zona de ropas",
+"1 Cocina(s)",
+"1 Terraza cubierta",
+"1 Terraza despejada"
+]
+}
+// Admon $
+// Precio $

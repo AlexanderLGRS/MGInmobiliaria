@@ -1,0 +1,18 @@
+{
+"key": 5,
+"tipo": "Casa",
+"ubicacion": "Bosa la libertad",
+"fecha": "29-ene-22",
+"area": "195",
+"venta": "true",
+"arriendo": "false",
+"comentarios": "Casa amplia esquinera, ubicada a una cuadra del sector comercial",
+"componentes": [
+"2 Pisos",
+"3 Aptos independientes",
+"1 Garaje",
+"1 Terraza(s)"
+]
+}
+// Admon $
+// Precio $ 320.000.000
