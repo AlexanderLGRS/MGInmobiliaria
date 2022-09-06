@@ -18,16 +18,16 @@ export default function Footer() {
         }}
         position='fixed'
       >
-        <Link className='sideBar-item-button' to='/' underline='none'>
+        <Link className='footer-item-button' to='/' underline='none'>
           Preguntas frecuentes
         </Link>
-        <Link className='sideBar-item-button' to='/' underline='none'>
+        <Link className='footer-item-button' to='/' underline='none'>
           Contáctanos
         </Link>
-        <Link className='sideBar-item-button' to='/' underline='none'>
+        <Link className='footer-item-button' to='/' underline='none'>
           Terminos y condiciones
         </Link>
-        <Link className='sideBar-item-button' to='/' underline='none'>
+        <Link className='footer-item-button' to='/' underline='none'>
           Privacidad
         </Link>
       </Box>

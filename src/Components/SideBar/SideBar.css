@@ -1,8 +1,9 @@
-.header{
+.header {
     width: 100vw;
     position: fixed;
     z-index: 3;
 }
+
 .sideBar-item-button,
 .sideBar-item-button:hover {
     color: white;
@@ -17,8 +18,4 @@
 .sideBar-item-icon {
     color: white;
 
-}
-
-.swipeableDrawer {
-    background-color: aqua;
 }

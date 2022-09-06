@@ -112,7 +112,7 @@ function SideBar(props) {
                 aria-label='open drawer'
                 edge='end'
                 onClick={toggleDrawer(true)}
-                sx={{ ...(open && { display: 'none' }), zIndex: 6 }}
+                sx={{ ...(open && { display: 'none' }), zIndex: 1200 }}
               >
                 <MenuIcon />
               </IconButton>
@@ -121,8 +121,8 @@ function SideBar(props) {
         </AppBar>
       </Box>
       <SwipeableDrawer
+      className='swipeableDrawer'
         sx={{
-          zIndex: 5,
           width: drawerWidth,
           flexShrink: 0,
           '& .MuiDrawer-paper': {
