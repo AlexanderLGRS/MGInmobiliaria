@@ -19,3 +19,7 @@
     color: white;
 
 }
+#swipeableDrawer{
+    position: relative;
+    z-index: 5;
+}

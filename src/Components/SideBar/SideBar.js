@@ -121,7 +121,7 @@ function SideBar(props) {
         </AppBar>
       </Box>
       <SwipeableDrawer
-      className='swipeableDrawer'
+      id='swipeableDrawer'
         sx={{
           width: drawerWidth,
           flexShrink: 0,
