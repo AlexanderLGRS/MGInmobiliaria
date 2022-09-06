@@ -82,8 +82,10 @@ function SideBar(props) {
             </Link>
             <Box
               sx={{
+                position:'relative',
                 display: 'flex',
                 justifyContent: 'space-evenly',
+                zIndex: 1200,
               }}
             >
               <IconButton
@@ -91,7 +93,7 @@ function SideBar(props) {
                 aria-label='open drawer'
                 edge='end'
                 onClick={toggleDrawer(true)}
-                sx={{ ...(open && { display: 'none' }), zIndex: 1200 }}
+                sx={{ ...(open && { display: 'none' }) }}
               >
                 <MenuIcon />
               </IconButton>
