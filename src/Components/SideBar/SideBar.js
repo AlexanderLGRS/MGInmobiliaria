@@ -84,7 +84,7 @@ function SideBar(props) {
   };
   React.useEffect(() => {
     props.onSelectFilter(filter);
-  }, [filter]);
+  });
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
